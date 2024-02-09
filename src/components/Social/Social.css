@@ -1,0 +1,27 @@
+.social {
+	width: 842px;
+	height: 117px;
+	border-radius: 8.23px;
+	border: 1.03px solid #70A9FF;
+}
+
+.social__text {
+	font-family: Mulish;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 23px;
+	letter-spacing: 0em;
+	text-align: center;
+
+	margin: 15px 0 32px;
+}
+
+.social__links {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+	gap: 25px;
+}
