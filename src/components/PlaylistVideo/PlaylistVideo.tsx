@@ -11,9 +11,9 @@ export function PlaylistVideo({ children }: PlaylistVideoProps) {
 	const { nameSection } = useParams();
 	return (
 		<section className="section-playlist">
-			<div className="section-video__container">
-				<h2 className="section-video__title">{nameSection}</h2>
-				<Link to='/video'>
+			<div className="section-playlist__container">
+				<h2 className="section-playlist__title">{nameSection}</h2>
+				<Link to='/'>
 					<button
 						type="button"
 						className="button__back">
