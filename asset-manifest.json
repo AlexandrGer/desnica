@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/desnica/static/css/main.a3fb5b01.css",
-    "main.js": "/desnica/static/js/main.c03dd64d.js",
+    "main.js": "/desnica/static/js/main.64c5fbd0.js",
     "static/media/video-header-img.jpg": "/desnica/static/media/video-header-img.5893eb23371197b9b95b.jpg",
     "static/media/Cyrillic.png": "/desnica/static/media/Cyrillic.d963d2448d5edfa66f8b.png",
     "static/media/icon-video.svg": "/desnica/static/media/icon-video.6834b723277e9531ae288520f581770d.svg",
@@ -11,10 +11,10 @@
     "static/media/VK.svg": "/desnica/static/media/VK.a9fa05bab048a89f92a7b26a07bb422c.svg",
     "index.html": "/desnica/index.html",
     "main.a3fb5b01.css.map": "/desnica/static/css/main.a3fb5b01.css.map",
-    "main.c03dd64d.js.map": "/desnica/static/js/main.c03dd64d.js.map"
+    "main.64c5fbd0.js.map": "/desnica/static/js/main.64c5fbd0.js.map"
   },
   "entrypoints": [
     "static/css/main.a3fb5b01.css",
-    "static/js/main.c03dd64d.js"
+    "static/js/main.64c5fbd0.js"
   ]
 }
