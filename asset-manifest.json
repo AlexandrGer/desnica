@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/desnica/static/css/main.170aa75d.css",
-    "main.js": "/desnica/static/js/main.1990291a.js",
-    "static/media/video-header-img.jpg": "/desnica/static/media/video-header-img.5893eb23371197b9b95b.jpg",
-    "static/media/Cyrillic.png": "/desnica/static/media/Cyrillic.d963d2448d5edfa66f8b.png",
-    "static/media/icon-video.svg": "/desnica/static/media/icon-video.6834b723277e9531ae288520f581770d.svg",
-    "static/media/Rutube.svg": "/desnica/static/media/Rutube.559f52a0314ef48985d877ca50e29427.svg",
-    "static/media/Youtube.svg": "/desnica/static/media/Youtube.0ba8f37921897fcdeea52c15d2eee7da.svg",
-    "static/media/Telegram.svg": "/desnica/static/media/Telegram.87ed04dcae39eaac4c884d9f6e887ca9.svg",
-    "static/media/VK.svg": "/desnica/static/media/VK.a9fa05bab048a89f92a7b26a07bb422c.svg",
-    "index.html": "/desnica/index.html",
-    "main.170aa75d.css.map": "/desnica/static/css/main.170aa75d.css.map",
-    "main.1990291a.js.map": "/desnica/static/js/main.1990291a.js.map"
+    "main.css": "/desnica/video/static/css/main.170aa75d.css",
+    "main.js": "/desnica/video/static/js/main.b90c8a2f.js",
+    "static/media/video-header-img.jpg": "/desnica/video/static/media/video-header-img.5893eb23371197b9b95b.jpg",
+    "static/media/Cyrillic.png": "/desnica/video/static/media/Cyrillic.d963d2448d5edfa66f8b.png",
+    "static/media/icon-video.svg": "/desnica/video/static/media/icon-video.6834b723277e9531ae288520f581770d.svg",
+    "static/media/Rutube.svg": "/desnica/video/static/media/Rutube.559f52a0314ef48985d877ca50e29427.svg",
+    "static/media/Youtube.svg": "/desnica/video/static/media/Youtube.0ba8f37921897fcdeea52c15d2eee7da.svg",
+    "static/media/Telegram.svg": "/desnica/video/static/media/Telegram.87ed04dcae39eaac4c884d9f6e887ca9.svg",
+    "static/media/VK.svg": "/desnica/video/static/media/VK.a9fa05bab048a89f92a7b26a07bb422c.svg",
+    "index.html": "/desnica/video/index.html",
+    "main.170aa75d.css.map": "/desnica/video/static/css/main.170aa75d.css.map",
+    "main.b90c8a2f.js.map": "/desnica/video/static/js/main.b90c8a2f.js.map"
   },
   "entrypoints": [
     "static/css/main.170aa75d.css",
-    "static/js/main.1990291a.js"
+    "static/js/main.b90c8a2f.js"
   ]
 }
