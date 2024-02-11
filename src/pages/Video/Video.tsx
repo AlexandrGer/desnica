@@ -21,7 +21,7 @@ export function Video() {
 
 
 			<Routes>
-				<Route path="/" element={
+				<Route path="/desnica/" element={
 					<>
 						<SectionVideo title='Видеогид по монастырям Москвы' >
 							{videoCards.map(videoCard => <SwiperSlide key={videoCard.id}><Card videoCard={videoCard} /></SwiperSlide>)}
@@ -42,7 +42,7 @@ export function Video() {
 						</SectionVideo>
 					</>}>
 				</Route>
-				<Route path='/:nameSection' element={
+				<Route path='/desnica/:nameSection' element={
 					<PlaylistVideo>
 						{videoCards.map(videoCard => <Card videoCard={videoCard} key={videoCard.id} />)}
 					</PlaylistVideo>}>

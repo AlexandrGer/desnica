@@ -13,7 +13,7 @@ export function PlaylistVideo({ children }: PlaylistVideoProps) {
 		<section className="section-playlist">
 			<div className="section-playlist__container">
 				<h2 className="section-playlist__title">{nameSection}</h2>
-				<Link to='/'>
+				<Link to='/desnica'>
 					<button
 						type="button"
 						className="button__back">
