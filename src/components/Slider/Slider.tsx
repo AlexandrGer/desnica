@@ -6,14 +6,18 @@ import './Slider.css';
 
 // import required modules
 import { Pagination } from 'swiper/modules';
-import { Card } from '../Card/Card';
 
-export function Slider() {
+interface SliderProps {
+	children: React.ReactNode
+}
+
+export function Slider({ children }: SliderProps) {
 	return (
 
 		<Swiper
 			slidesPerView={3}
-			spaceBetween={1}
+			// spaceBetween={1}
+			slidesPerGroup={3}
 			pagination={{
 				clickable: true,
 			}}
@@ -30,45 +34,20 @@ export function Slider() {
 					slidesPerView: 5,
 					spaceBetween: 50,
 				},
+				1920: {
+					// slidesPerView: 3,
+					spaceBetween: 25,
+				},
 			}}
 			modules={[Pagination]}
 			className="mySwiper"
 		>
-			{/* <SwiperSlide><Card /></SwiperSlide>
-			<SwiperSlide><Card /></SwiperSlide>
-			<SwiperSlide><Card /></SwiperSlide>
-			<SwiperSlide><Card /></SwiperSlide>
-			<SwiperSlide><Card /></SwiperSlide>
-			<SwiperSlide><Card /></SwiperSlide>
-			<SwiperSlide><Card /></SwiperSlide>
-			<SwiperSlide><Card /></SwiperSlide> */}
-			<SwiperSlide>Slide 2</SwiperSlide>
-			<SwiperSlide>Slide 3</SwiperSlide>
-			<SwiperSlide>Slide 4</SwiperSlide>
-			<SwiperSlide>Slide 5</SwiperSlide>
-			<SwiperSlide>Slide 6</SwiperSlide>
-			<SwiperSlide>Slide 7</SwiperSlide>
-			<SwiperSlide>Slide 8</SwiperSlide>
-			<SwiperSlide>Slide 9</SwiperSlide>
+			{children}
 		</Swiper>
 
 
 
 
 
-
-		// <Swiper
-		// 	width={100}
-		// 	spaceBetween={50}
-		// 	slidesPerView={3}
-		// 	onSlideChange={() => console.log('slide change')}
-		// // onSwiper={(swiper) => console.log(swiper)}
-		// >
-		// 	<SwiperSlide>1</SwiperSlide>
-		// 	<SwiperSlide>2</SwiperSlide>
-		// 	<SwiperSlide>3</SwiperSlide>
-		// 	<SwiperSlide>4</SwiperSlide>
-		// 	...
-		// </Swiper>
 	);
 };

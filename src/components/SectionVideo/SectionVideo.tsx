@@ -1,7 +1,6 @@
 import React from "react";
 import './SectionVideo.css';
-import { Card } from "../Card/Card";
-import { videoCards } from "../../videoCards";
+import { Slider } from "../Slider/Slider";
 
 interface SectionVideoProps {
 	title: string,
@@ -9,7 +8,6 @@ interface SectionVideoProps {
 }
 
 export function SectionVideo({ title, children }: SectionVideoProps) {
-
 	return (
 		<section className="section-video">
 			<div className="section-video__container">
@@ -20,10 +18,15 @@ export function SectionVideo({ title, children }: SectionVideoProps) {
 					Смотреть все
 				</button>
 			</div>
-			<div className="section-video__cards">
-				{children}
-			</div>
 
+			<div className="section-video__cards">
+				<Slider>
+					{children}
+				</Slider>
+
+
+			</div>
 		</section>
+
 	)
 }

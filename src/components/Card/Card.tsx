@@ -3,6 +3,8 @@ import './Card.css';
 import cyrillic from '../../images/Cyrillic.png';
 import icon_video from '../../images/icon-video.svg';
 import { ICard } from "../../models";
+import { SwiperSlide } from "swiper/react";
+import 'swiper/css';
 
 interface VideoCardProps {
 	videoCard: ICard
