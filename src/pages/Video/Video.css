@@ -23,3 +23,28 @@
 	object-fit: cover;
 	object-position: top;
 }
+
+.video__container {
+	width: 100%;
+	max-width: 1199px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 64px;
+}
+
+@media screen and (max-width: 1279px) {
+	.video__image {
+		height: 305px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.video {
+		gap: 32px;
+	}
+
+	.video__image {
+		height: 178px;
+	}
+}

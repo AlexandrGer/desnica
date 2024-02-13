@@ -19,36 +19,36 @@ export function Video() {
 				alt="Облака"
 				className="video__image" />
 
+			<div className="video__container">
+				<Routes>
+					<Route path="/desnica/" element={
+						<>
+							<SectionVideo title='Видеогид по монастырям Москвы' >
+								{videoCards.map(videoCard => <SwiperSlide key={videoCard.id}><Card videoCard={videoCard} /></SwiperSlide>)}
+							</SectionVideo>
+							<SectionVideo title='Библиотека' >
+								{videoCards.map(videoCard => <SwiperSlide key={videoCard.id}><Card videoCard={videoCard} /></SwiperSlide>)}
+							</SectionVideo>
+							<SectionVideo title='Богослужения с переводом на РЖЯ' >
+								{videoCards.map(videoCard => <SwiperSlide key={videoCard.id}><Card videoCard={videoCard} /></SwiperSlide>)}
+							</SectionVideo>
 
-			<Routes>
-				<Route path="/desnica/" element={
-					<>
-						<SectionVideo title='Видеогид по монастырям Москвы' >
-							{videoCards.map(videoCard => <SwiperSlide key={videoCard.id}><Card videoCard={videoCard} /></SwiperSlide>)}
-						</SectionVideo>
-						<SectionVideo title='Библиотека' >
-							{videoCards.map(videoCard => <SwiperSlide key={videoCard.id}><Card videoCard={videoCard} /></SwiperSlide>)}
-						</SectionVideo>
-						<SectionVideo title='Богослужения с переводом на РЖЯ' >
-							{videoCards.map(videoCard => <SwiperSlide key={videoCard.id}><Card videoCard={videoCard} /></SwiperSlide>)}
-						</SectionVideo>
+							<SectionVideo title='СМИ о центре “Десница”' >
+								{videoCards.map(videoCard => <SwiperSlide key={videoCard.id}><Card videoCard={videoCard} /></SwiperSlide>)}
+							</SectionVideo>
 
-						<SectionVideo title='СМИ о центре “Десница”' >
-							{videoCards.map(videoCard => <SwiperSlide key={videoCard.id}><Card videoCard={videoCard} /></SwiperSlide>)}
-						</SectionVideo>
-
-						<SectionVideo title='Фильмы и предачи с субтитрами от наших партнёров' >
-							{videoCards.map(videoCard => <SwiperSlide key={videoCard.id}><Card videoCard={videoCard} /></SwiperSlide>)}
-						</SectionVideo>
-					</>}>
-				</Route>
-				<Route path='/desnica/:nameSection' element={
-					<PlaylistVideo>
-						{videoCards.map(videoCard => <Card videoCard={videoCard} key={videoCard.id} />)}
-					</PlaylistVideo>}>
-				</Route>
-			</Routes>
-
+							<SectionVideo title='Фильмы и предачи с субтитрами от наших партнёров' >
+								{videoCards.map(videoCard => <SwiperSlide key={videoCard.id}><Card videoCard={videoCard} /></SwiperSlide>)}
+							</SectionVideo>
+						</>}>
+					</Route>
+					<Route path='/desnica/:nameSection' element={
+						<PlaylistVideo>
+							{videoCards.map(videoCard => <Card videoCard={videoCard} key={videoCard.id} />)}
+						</PlaylistVideo>}>
+					</Route>
+				</Routes>
+			</div>
 			<Social />
 		</div >
 	)

@@ -22,20 +22,24 @@ export function Slider({ children }: SliderProps) {
 				clickable: true,
 			}}
 			breakpoints={{
-				640: {
-					slidesPerView: 2,
+				300: {
+					slidesPerView: 1,
 					spaceBetween: 20,
+					slidesPerGroup: 3,
 				},
 				768: {
-					slidesPerView: 4,
-					spaceBetween: 40,
+					slidesPerView: 2,
+					spaceBetween: 20,
+					slidesPerGroup: 3,
 				},
-				1024: {
-					slidesPerView: 5,
-					spaceBetween: 50,
+				1000: {
+					spaceBetween: 20,
+				},
+				1129: {
+					spaceBetween: 20,
 				},
 				1920: {
-					// slidesPerView: 3,
+					slidesPerView: 3,
 					spaceBetween: 25,
 				},
 			}}

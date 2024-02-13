@@ -14,16 +14,16 @@ export function SectionVideo({ title, children }: SectionVideoProps) {
 	console.log(nameSection)
 	return (
 		<section className="section-video">
-			<div className="section-video__container">
-				<h2 className="section-video__title">{title}</h2>
-				<Link to={nameSection}>
-					<button
-						type="button"
-						className="button__see-all">
-						Смотреть все
-					</button>
-				</Link>
-			</div>
+			{/* <div className="section-video__container"> */}
+			<h2 className="section-video__title">{title}</h2>
+			<Link to={nameSection} className="section-video__link">
+				<button
+					type="button"
+					className="button__see-all">
+					Смотреть все
+				</button>
+			</Link>
+			{/* </div> */}
 
 			<div className="section-video__cards">
 				<Slider>

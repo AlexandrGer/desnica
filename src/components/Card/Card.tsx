@@ -19,7 +19,7 @@ export function Card({ videoCard }: VideoCardProps) {
 			</div>
 
 			<p className="card__title">{videoCard.title}</p>
-			<span className="card__caption">{videoCard.views} тыс. просмотров · {videoCard.posted} месяца назад</span>
+			<p className="card__caption">{videoCard.views} тыс. просмотров · {videoCard.posted} месяца назад</p>
 		</div>
 	)
 }

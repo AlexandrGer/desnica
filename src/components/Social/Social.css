@@ -1,5 +1,6 @@
 .social {
-	width: 842px;
+	width: 100%;
+	max-width: 842px;
 	height: 117px;
 	border-radius: 8.23px;
 	border: 1.03px solid #70A9FF;
@@ -24,4 +25,29 @@
 	padding: 0;
 	margin: 0;
 	gap: 25px;
+}
+
+@media screen and (max-width: 1023px) {
+	.social {
+		max-width: 500px;
+	}
+}
+
+@media screen and (max-width: 539px) {
+	.social {
+		max-width: 179px;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.social__text {
+		margin: 0 0 32px;
+	}
+
+	.social__links {
+		width: 121px;
+		flex-wrap: wrap;
+	}
 }
