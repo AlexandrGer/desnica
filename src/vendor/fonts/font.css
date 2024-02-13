@@ -1,0 +1,39 @@
+@font-face {
+	font-family: 'Palatino Linotype';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url("./PalatinoLinotype/palatinolinotype_roman.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: 'Palatino Linotype';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url("./PalatinoLinotype/palatinolinotype_bold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: 'Mulish';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url("./Mulish/Mulish-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: 'Mulish';
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+	src: url("./Mulish/Mulish-Medium.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: 'Mulish';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url("./Mulish/Mulish-Bold.ttf") format("truetype");
+}
