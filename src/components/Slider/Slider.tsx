@@ -22,7 +22,7 @@ export function Slider({ children }: SliderProps) {
 				clickable: true,
 			}}
 			breakpoints={{
-				300: {
+				280: {
 					slidesPerView: 1,
 					spaceBetween: 20,
 					slidesPerGroup: 3,
