@@ -4,18 +4,17 @@ import { Slider } from "../Slider/Slider";
 import { Link, useParams } from "react-router-dom";
 
 interface SectionVideoProps {
-	title: string,
-	children: React.ReactNode
+	titleSection: string,
+	// children: React.ReactNode
+	children: any,
 }
 
-export function SectionVideo({ title, children }: SectionVideoProps) {
+export function SectionVideo({ titleSection, children }: SectionVideoProps) {
 	let { nameSection } = useParams();
-	nameSection = title;
-	console.log(nameSection)
+	nameSection = titleSection;
 	return (
 		<section className="section-video">
-			{/* <div className="section-video__container"> */}
-			<h2 className="section-video__title">{title}</h2>
+			<h2 className="section-video__title">{titleSection}</h2>
 			<Link to={nameSection} className="section-video__link">
 				<button
 					type="button"
@@ -23,7 +22,6 @@ export function SectionVideo({ title, children }: SectionVideoProps) {
 					Смотреть все
 				</button>
 			</Link>
-			{/* </div> */}
 
 			<div className="section-video__cards">
 				<Slider>

@@ -17,6 +17,10 @@
 	width: 100%;
 }
 
+.section-video__link {
+	width: max-content;
+}
+
 .button__see-all {
 	font-family: Mulish;
 	font-size: 18px;

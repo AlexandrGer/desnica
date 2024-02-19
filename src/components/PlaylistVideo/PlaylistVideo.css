@@ -16,6 +16,10 @@
 	width: 100%;
 }
 
+.section-playlist__link {
+	width: max-content;
+}
+
 .section-playlist__cards {
 	display: flex;
 	flex-wrap: wrap;

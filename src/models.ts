@@ -3,5 +3,6 @@ export interface ICard {
 	title: string,
 	views: number,
 	posted: number,
+	description: string,
 	image?: string,
 }
